@@ -19,6 +19,6 @@ CodeBook.md
    dimension. 
 12. I merged both matrices, using cbind() function,  in xsm matrix with dimension (10299,66). This is the matrix we were looking for.
 13. In the last point of the assignment, I created a data set using the lapply function, and put the result in xtmen matrix. 
-14. I wrote xsm andd xtmen matrices in the workin area. I wrote them as "csv files".
+14. I wrote xsm andd xtmen matrices in the workin area. I wrote them as "txt files".
    
    	
