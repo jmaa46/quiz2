@@ -27,7 +27,7 @@ xs <- xt[s]    ##it extract the columns with the std function
 xm <- xt[m]     ## it extract the columns with the mean function
                 ## this is the answer of point 5
 xsm <- cbind(xs,xm)   ## It presents the answer in one data.frame
-write.table(xsm,"./quiz2/xsm.csv", sep ="")
+write.table(xsm,"./quiz2/xsm.csv", sep =",")
 xtmeans <- lapply(xt,mean) ## data set whith the average of each variable,for each activity
                            ## and each subject.
-write.table(xtmeans,"./quiz2/xtmeans.csv",sep="") 
+write.table(xtmeans,"./quiz2/xtmeans.csv",sep=",") 
